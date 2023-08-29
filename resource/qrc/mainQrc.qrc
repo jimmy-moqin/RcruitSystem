@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="header">
+    <file>../img/icon-plus.png</file>
+    <file>../img/drop_arrow.png</file>
+    <file>../img/wait.png</file>
+    <file>../img/fail.png</file>
+    <file>../img/line.png</file>
+    <file>../img/pass.png</file>
+    <file>../img/logo.png</file>
+    <file>../img/logout.png</file>
+    <file>../img/people.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>reg</class>
+ <widget class="QWidget" name="reg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>332</width>
+    <height>404</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="regPwdLabel">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>149</y>
+     <width>36</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>思源黑体 CN</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>密码</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="phoneNumLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>87</y>
+     <width>54</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>思源黑体 CN</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>手机号</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="mailLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>207</y>
+     <width>255</width>
+     <height>39</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="regPwdLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>143</y>
+     <width>255</width>
+     <height>39</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mailLabel">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>214</y>
+     <width>36</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>思源黑体 CN</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>邮箱</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="registerTopic">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>0</y>
+     <width>144</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>思源黑体 CN</family>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>用户注册</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="phoneNumLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>80</y>
+     <width>255</width>
+     <height>39</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="captchaLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>270</y>
+     <width>127</width>
+     <height>39</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="captchaLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>277</y>
+     <width>54</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>思源黑体 CN</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>验证码</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="registerBtn">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>355</y>
+     <width>255</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注  册</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="retLoginBtn">
+   <property name="geometry">
+    <rect>
+     <x>266</x>
+     <y>321</y>
+     <width>59</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>思源黑体 CN</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>返回登录</string>
+   </property>
+  </widget>
+  <widget class="CaptchaLabel" name="captchaPicLabel">
+   <property name="geometry">
+    <rect>
+     <x>211</x>
+     <y>271</y>
+     <width>114</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="phoneNumTip">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>62</y>
+     <width>251</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>思源黑体 CN</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="regPwdTip">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>125</y>
+     <width>251</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>思源黑体 CN</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mailTip">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>189</y>
+     <width>251</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>思源黑体 CN</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="captchaTip">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>253</y>
+     <width>251</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>思源黑体 CN</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CaptchaLabel</class>
+   <extends>QLabel</extends>
+   <header>components.captchalabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

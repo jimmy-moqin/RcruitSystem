@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="login">
+    <file>../img/bg01.png</file>
+    <file>../img/bg02.png</file>
+    <file>../img/bg03.png</file>
+    <file>../img/logo.png</file>
+    <file>../img/logout.png</file>
+    <file>../img/people.png</file>
+  </qresource>
+  <qresource prefix="message">
+    <file>../img/error.png</file>
+    <file>../img/close.png</file>
+    <file>../img/success.png</file>
+  </qresource>
+</RCC>

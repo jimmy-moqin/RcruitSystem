@@ -1,0 +1,28 @@
+@import "./resource/qss/common.scss";
+
+.ElCatalog {
+    background-color: #FFFFFF;
+    border: none;
+    margin-top: 16px;
+    border-radius: 2px;
+    font-size: 18px;
+    font-family: $font-family-base;
+    outline: 0px;
+    &::item {
+        color: #303133;
+        font-size: 18px;
+        height: 2.5em;
+        border-radius: 8px;
+        padding-left: 24px;
+        &:selected {
+            color: #409EFF;
+            background-color: #ECF5FF;
+        }  
+    }
+
+}
+
+
+
+
+

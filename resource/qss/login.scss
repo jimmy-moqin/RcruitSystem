@@ -1,0 +1,115 @@
+@import "./resource/qss/common.scss";
+
+#LoginWidget{
+    background-color: #fff;
+}
+
+#loginTopic,#registerTopic{
+    color: $black-dark;
+}
+
+#accountLabel,#pwdLabel,#phoneNumLabel,#regPwdLabel,#mailLabel,#captchaLabel{
+    color: $black-light;
+    font-weight: bold;
+}
+
+#accountLineEdit,#pwdLineEdit,#phoneNumLineEdit,#regPwdLineEdit,#mailLineEdit,#captchaLineEdit{
+    border: 1px solid $border-grey;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: $font-size-small;
+    font-family: $font-family-base;
+    &:focus{
+        border: 1px solid $blue-3;
+    }
+}
+
+
+#remindPwdCheckBox{
+    color: $black-light;
+    font-size: $font-size-small;
+    font-weight: bold;
+    &:hover{
+        color: $blue-5;
+    }
+}
+
+#transToRegisterBtn,#retLoginBtn{
+    font-size: $font-size-small;
+    color: $blue-5;
+    border:none;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+    &:hover{
+        color: $blue-4;
+    }
+    &:pressed{
+        color: $blue-6;
+    }
+}
+
+#loginBtn,#registerBtn{
+    font-size: $font-size-base;
+    color: #fff;
+    font-weight: bold;
+    font-family: $font-family-base;
+    background-color: $blue-5;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    &:hover{
+        background-color: $blue-4;
+    }
+    &:pressed{
+        background-color: $blue-6;
+    }
+}
+
+#captchaPicBtn{
+    border: none;
+    background-color: transparent;
+}
+
+#phoneNumTip,#regPwdTip,#mailTip,#captchaTip,#accountTip,#pwdTip{
+    color: $warning-9;
+    font-size: 7pt;
+    font-family: $font-family-base;
+    font-weight: bold;
+}
+
+#messageContainer[type="success"]{
+    background-color: $success-3;
+    border: 2px solid $success-4;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#messageContainer[type="error"]{
+    background-color: $error-1;
+    border: 2px solid $error-4;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#msgLabel[type="success"]{
+    color: $success-5;
+    font-size: $font-size-small;
+    font-family: $font-family-base;
+    font-weight: bold;
+    
+}
+
+#msgLabel[type="error"]{
+    color: $error-5;
+    font-size: $font-size-small;
+    font-family: $font-family-base;
+    font-weight: bold;
+    
+}
+
+
